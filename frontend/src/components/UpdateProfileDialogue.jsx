@@ -148,7 +148,7 @@ const UpdateProfileDialogue = ({ open, setOpen }) => {
                                     id="file"
                                     name="file"
                                     type="file"
-                                    accept="application/pdf/doc"
+                                    accept="application/pdf"
                                     onChange={fileChangeHandler}
                                     className="col-span-3"
                                 />
