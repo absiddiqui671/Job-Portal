@@ -4,7 +4,7 @@ import Herosection from './Herosection'
 import CategoryCarousel from './CategoryCarousel'
 import LatestJobs from './LatestJobs'
 import Footer from './Footer'
-import useGetAllJobs from '@/hooks/useGetAllJobs'
+import useGetAllJobs from '@/hooks/useGetAllJob'
 
 const Home = () => {
     useGetAllJobs();
